@@ -69,6 +69,8 @@
     <Content Include="img\Spotify.png" />
     <Content Include="img\warlord.png" />
     <Content Include="img\youtubelogo.png" />
+    <Content Include="Js\jquery.validationEngine-en.js" />
+    <Content Include="Js\jquery.validationEngine.js" />
     <Content Include="MasterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -83,6 +85,7 @@
     <Content Include="Live.aspx" />
     <Content Include="style\background.png" />
     <Content Include="style\styleWhite.css" />
+    <Content Include="style\validationEngine.jquery.css" />
     <Content Include="Web.config" />
     <Content Include="Band_Info.aspx" />
     <Content Include="Store.aspx" />
