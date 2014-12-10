@@ -1,0 +1,256 @@
+﻿body {
+    font-family: Century Gothic, Optima, Arial Narrow;
+    color: #505050;
+    /*Test för git*/
+}
+
+#topLink {
+    width: 100%;
+}
+
+#topContent table {
+    margin: 0 auto 0;
+}
+
+    #topContent table td {
+        width: 200px;
+        text-align: center;
+    }
+
+#header {
+    /*background-color: pink;*/
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+    #header img {
+        width: 60%;
+    }
+
+#nav {
+    text-align: center;
+}
+
+#menueList {
+    list-style: none;
+}
+
+    #menueList li {
+        display: inline;
+    }
+
+    #menueList a {
+        color: #505050;
+        font-size: large;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 40px;
+    }
+
+        #menueList a:hover {
+            color: #202020;
+        }
+
+#wrapper {
+    width: 900px;
+    margin: 0px auto 0px;
+    /*background-color: yellow;*/
+    position: relative;
+}
+
+#homeContent {
+    /*background-color: red;*/
+    position: relative;
+    margin: 0 400px 0 0;
+}
+
+#homeVideo {
+    width: 400px;
+    position: relative;
+    margin: 10px auto 0;
+}
+
+#homeLiveSection {
+    /*background-color: green;*/
+    padding: 50px;
+}
+
+#homeLiveContent {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: lightgray;*/
+}
+
+#homeLiveContent, #liveContent table td {
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+}
+
+#homeContent a:hover {
+    color: #202020;
+}
+
+.showMore {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    height: 20px;
+    /*background-color: lightgray;*/
+    font-size: x-small;
+}
+
+    .showMore a {
+        text-decoration: none;
+        color: #505050;
+    }
+
+        .showMore a:hover {
+            color: #202020;
+        }
+
+#fbLike {
+    /*background-color: blue;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 500px;
+}
+
+#liveContent {
+    /*background-color: pink;*/
+    width: 500px;
+    margin: 0 auto;
+}
+
+    #liveContent table th {
+        height: 100px;
+        vertical-align: bottom;
+    }
+
+    #liveContent td {
+        padding: 10px;
+    }
+
+#tblBandPhotos {
+    margin: 0 auto;
+}
+
+#bandPhotos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#tblBandPhotos {
+    border-spacing: 0;
+}
+
+    #tblBandPhotos td {
+        /*background-color: red;*/
+        width: 148px;
+        vertical-align: top;
+        text-align: left;
+    }
+
+#bio {
+    width: 600px;
+    margin: 30px auto;
+    color: #505050;
+}
+
+#tblStores {
+    margin: 0 auto;
+}
+
+    #tblStores tr {
+        height: 120px;
+        text-align: center;
+    }
+
+#contact {
+    width: 600px;
+    margin: 0 auto 0;
+}
+
+#footer {
+    width: 100%;
+}
+
+#footContent table {
+    margin: 0 auto 0;
+}
+
+    #footContent table td {
+        width: 200px;
+        text-align: center;
+    }
+
+@media screen and (max-width: 899px) {
+    #header {
+        width: 100%;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+
+    #homeContent {
+        width: 100%;
+    }
+
+    #homeLiveSection {
+        padding: 0;
+    }
+
+    #homeLiveContent {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    #fbLike {
+        width: 400px;
+        position: static;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:599px) {
+    #topLink img {
+        width: 90%;
+    }
+
+    #header img {
+        width: 400px;
+    }
+
+    #liveContent {
+        width: 100%;
+    }
+
+    #bandPhotos img {
+        width: 100%;
+    }
+
+    #tblBandPhotos {
+        font-size: x-small;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #stores img {
+        width: 100%;
+    }
+
+    #footContent img {
+        width: 80%;
+    }
+}
