@@ -28,6 +28,10 @@
         width: 60%;
     }
 
+.btnMenu {
+    display: none;
+}
+
 #nav {
     text-align: center;
 }
@@ -175,8 +179,14 @@ a {
     }
 
 #contact {
-    width: 600px;
+    width: 500px;
+    height: 300px;
     margin: 0 auto 0;
+}
+
+#forms {
+    position: absolute;
+    margin-top: 35px;
 }
 
 #footer {
@@ -230,6 +240,32 @@ a {
         width: 400px;
     }
 
+    #menueList li {
+        display: block;
+        height: 50px;
+
+    }
+
+    #nav {
+
+        height: 100%;
+        text-align: left;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        display: none;
+        
+    }
+    #nav hr {
+        display: none;
+    }
+
+    .btnMenu{
+        display: block;
+        cursor: pointer;
+        }
+
+
     #liveContent {
         width: 100%;
     }
@@ -251,11 +287,6 @@ a {
     }
 
     #footContent img {
-        width: 80%;
+        width: 90%;
     }
-}
-
-#forms {
-    position: absolute;
-    margin-top: 35px;
 }
