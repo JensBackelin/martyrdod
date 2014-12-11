@@ -59,12 +59,15 @@
   <ItemGroup>
     <Content Include="img\bands_in_town.png" />
     <Content Include="img\band_photo.jpg" />
+    <Content Include="img\Day Poster Fri May 29th.jpg" />
     <Content Include="img\dtrp.png" />
     <Content Include="img\EURising.png" />
     <Content Include="img\fb-Logo.png" />
     <Content Include="img\is.png" />
     <Content Include="img\MartyrdodLogo.png" />
+    <Content Include="img\MDF.jpg" />
     <Content Include="img\menu_icon_mobileversion.png" />
+    <Content Include="img\poster-2015--en-600.jpg" />
     <Content Include="img\punkdistro.png" />
     <Content Include="img\sl_logo.png" />
     <Content Include="img\Spotify.png" />

@@ -83,7 +83,7 @@
 #homeLiveContent {
     position: relative;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     /*background-color: lightgray;*/
 }
 
@@ -129,18 +129,34 @@ a {
 }
 
 #liveContent {
-    /*background-color: pink;*/
-    width: 500px;
+    position: relative;
+    width: 700px;
     margin: 0 auto;
 }
 
-    #liveContent table th {
-        height: 100px;
-        vertical-align: bottom;
-    }
+#Shows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+}
 
-    #liveContent td {
-        padding: 10px;
+#liveContent table th {
+    height: 100px;
+    vertical-align: bottom;
+}
+
+#liveContent table {
+    border-spacing: 10px;
+}
+
+#liveFlyers {
+    width: 30%;
+    margin-left: 500px;
+}
+
+    #liveFlyers img {
+        width: 100%;
     }
 
 #tblBandPhotos {
@@ -191,6 +207,7 @@ a {
 
 #footer {
     width: 100%;
+    clear: both;
 }
 
 #footContent table {
@@ -243,31 +260,38 @@ a {
     #menueList li {
         display: block;
         height: 50px;
-
     }
 
     #nav {
-
         height: 100%;
         text-align: left;
         position: absolute;
         background-color: white;
         z-index: 1;
         display: none;
-        
-    }
-    #nav hr {
-        display: none;
     }
 
-    .btnMenu{
+        #nav hr {
+            display: none;
+        }
+
+    .btnMenu {
         display: block;
         cursor: pointer;
-        }
+    }
 
 
     #liveContent {
         width: 100%;
+        font-size: small;
+    }
+
+    #Shows {
+        position: static;
+    }
+
+    #liveFlyers {
+        display: none;
     }
 
     #bandPhotos img {
@@ -275,7 +299,7 @@ a {
     }
 
     #tblBandPhotos {
-        font-size: x-small;
+        font-size: small;
     }
 
     #bio {

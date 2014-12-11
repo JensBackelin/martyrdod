@@ -46,13 +46,14 @@
                 <img src="img/MartyrdodLogo.png" /></a>
 
         </div>
-        <div class="btnMenu"><img src="img/menu_icon_mobileversion.png"/></div>
+        <div class="btnMenu">
+            <img src="img/menu_icon_mobileversion.png" /></div>
         <div id="nav">
             <ul id="menueList">
                 <li><a href="index.aspx">HOME</a></li>
                 <li><a href="Live.aspx">LIVE</a></li>
                 <li><a href="Band_Info.aspx">BAND INFO</a></li>
-                <li><a href="Store.aspx">STORE</a></li>
+                <li><a href="Store.aspx">MERCH</a></li>
                 <li><a href="Contact.aspx">CONTACT</a></li>
             </ul>
             <hr />

@@ -14,6 +14,11 @@
                         <h2>UPCOMMING SHOWS</h2>
                     </th>
                     <tr>
+                        <td>April 4 2015</td>
+                        <td>Klubb Dead Rhythm - SWE</td>
+                        <td><a href="">Info TBA</a></td>
+                    </tr>
+                    <tr>
                         <td>May 23 2015</td>
                         <td>Maryland Deathfest - US</td>
                         <td><a href="http://www.marylanddeathfest.com/band/martyrd%C3%B6d" target="_blank">Tickets</a></td>
@@ -23,6 +28,7 @@
                         <td>Temples Festival - UK</td>
                         <td><a href="http://www.templesfestival.co.uk/tickets">Tickets</a></td>
                     </tr>
+
 
                 </table>
                 <div class="showMore"><a href="Live.aspx">show more</a></div>
