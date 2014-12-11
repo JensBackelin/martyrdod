@@ -46,7 +46,7 @@
                 <img src="img/MartyrdodLogo.png" /></a>
 
         </div>
-        <div class="btnMenu"><img src="img/menu-icon.png"/></div>
+        <div class="btnMenu"><img src="img/menu_icon_mobileversion.png"/></div>
         <div id="nav">
             <ul id="menueList">
                 <li><a href="index.aspx">HOME</a></li>
