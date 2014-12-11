@@ -202,7 +202,7 @@ a {
         text-align: center;
     }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 900px) {
     #header {
         width: 100%;
     }
@@ -231,7 +231,7 @@ a {
     }
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:600px) {
     #topLink img {
         width: 90%;
     }
