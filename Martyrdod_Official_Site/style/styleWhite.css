@@ -92,7 +92,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #505050;
 }
 
@@ -110,10 +110,10 @@ a {
     font-size: x-small;
 }
 
-    .showMore a {
-        text-decoration: none;
+    /*.showMore a {
+        text-decoration: underline;
         color: #505050;
-    }
+    }*/
 
         .showMore a:hover {
             color: #202020;
