@@ -38,8 +38,8 @@
 
     </div>
     <div id="fbLike">
-        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmartyrdod&amp;width=400&amp;height=600&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false"
-            scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 400px; height: 600px;" allowtransparency="true"></iframe>
+        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fmartyrdod&amp;width=375&amp;height=600&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false"
+            scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 375px; height: 600px;" allowtransparency="true"></iframe>
         <%--            <div class="fb-like-box" data-href="https://www.facebook.com/martyrdod" data-width="300" data-height="400" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="true" data-show-border="true"></div>--%>
     </div>
 </asp:Content>

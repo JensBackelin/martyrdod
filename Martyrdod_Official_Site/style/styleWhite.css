@@ -223,6 +223,9 @@ a {
     #header {
         width: 100%;
     }
+    #header img {
+        width: 540px;
+    }
 
     #wrapper {
         width: 100%;
@@ -254,7 +257,7 @@ a {
     }
 
     #header img {
-        width: 400px;
+        width: 90%;
     }
 
     #menueList li {
@@ -278,6 +281,20 @@ a {
     .btnMenu {
         display: block;
         cursor: pointer;
+    }
+
+    #homeContent, #homeVideo, #homeLiveSection, #homeLiveContent {
+        width: 100%;
+        font-size: small;
+    }
+
+    iframe {
+        max-width: 400px;
+        width: 100%;
+    }
+    #fbLike iframe {
+        width: 100%;
+        max-width: 400px;
     }
 
 
