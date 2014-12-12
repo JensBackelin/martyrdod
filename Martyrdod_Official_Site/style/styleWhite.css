@@ -223,9 +223,10 @@ a {
     #header {
         width: 100%;
     }
-    #header img {
-        width: 540px;
-    }
+
+        #header img {
+            width: 540px;
+        }
 
     #wrapper {
         width: 100%;
@@ -288,13 +289,14 @@ a {
         font-size: small;
     }
 
-    iframe {
-        max-width: 400px;
-        width: 100%;
-    }
+        #homeVideo iframe {
+            max-width: 400px;
+            width: 100%;
+        }
+
     #fbLike iframe {
+        max-width: 375px;
         width: 100%;
-        max-width: 400px;
     }
 
 
