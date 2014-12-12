@@ -2,6 +2,9 @@
     font-family: Century Gothic, Arial Narrow, Verdana, Helvetica;
     color: #505050;
 }
+#container {
+    height: 100%;
+}
 
 #topLink {
     width: 100%;
@@ -28,6 +31,7 @@
 
 .btnMenu {
     display: none;
+    font-weight: bold;
 }
 
 #nav {
@@ -71,18 +75,26 @@
     margin: 10px auto 0;
 }
 
-#homeLiveSection {
-    padding: 50px;
-}
+    #homeVideo iframe {
+        width: 400px;
+        height: 300px;
+    }
+
 
 #homeLiveContent {
     position: relative;
+    width: 400px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 50px;
 }
 
 #homeLiveContent, #liveContent table td {
     line-height: 30px;
+}
+
+#fbLike iframe {
+    width: 400px;
+    height: 600px;
 }
 
 a {
@@ -103,9 +115,9 @@ a {
     font-size: x-small;
 }
 
-        .showMore a:hover {
-            color: #202020;
-        }
+    .showMore a:hover {
+        color: #202020;
+    }
 
 #fbLike {
     position: absolute;
@@ -218,15 +230,6 @@ a {
         width: 100%;
     }
 
-    #homeLiveSection {
-        padding: 0;
-    }
-
-    #homeLiveContent {
-        width: 400px;
-        margin: 0 auto;
-    }
-
     #fbLike {
         width: 400px;
         position: static;
@@ -239,9 +242,13 @@ a {
         width: 90%;
     }
 
-    #header img {
-        width: 90%;
+    #header {
+        width: 100%;
     }
+
+        #header img {
+            width: 90%;
+        }
 
     #menueList li {
         display: block;
@@ -255,6 +262,7 @@ a {
         background-color: white;
         z-index: 1;
         display: none;
+
     }
 
         #nav hr {
@@ -266,30 +274,35 @@ a {
         cursor: pointer;
     }
 
-    #homeContent{
+    #homeContent {
         width: 100%;
-        font-size: small;
-        margin: 0;
+        margin: 0 auto;
     }
+
     #homeLiveContent {
-        width: 100%;
-        font-size: small;
+        position: static;
+        margin: 0;
         padding: 0px;
-    }
-    #homeLiveSection {
-        width: 100%;
         font-size: small;
+    }
+
+    #homeVideo {
+        width: 100%;
     }
 
         #homeVideo iframe {
-            max-width: 380px;
             width: 100%;
+            max-width: 400px;
         }
 
-    #fbLike iframe {
-        max-width: 375px;
+    #fbLike {
         width: 100%;
     }
+
+        #fbLike iframe {
+            width: 100%;
+            max-width: 400px;
+        }
 
 
     #liveContent {
@@ -325,3 +338,6 @@ a {
         width: 90%;
     }
 }
+/*@media screen and (max-device-width: 640px) {
+    
+}*/
