@@ -18,16 +18,16 @@ namespace Martyrdod_Official_Site
         protected void btnSend_Click(object sender, EventArgs e)
         {
             System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
-            mail.To.Add("wira.08@live.se");
-            mail.From = new MailAddress("wira.08@live.se", "Email head bajs", System.Text.Encoding.UTF8);
-            mail.Subject = "This mail is send from a fan";
+            mail.To.Add("jensbackelin@hotmail.com");
+            mail.From = new MailAddress("jensbackelin@hotmail.com", "From Martyrdod webform", System.Text.Encoding.UTF8);
+            mail.Subject = "www.martyrdod.com";
             mail.SubjectEncoding = System.Text.Encoding.UTF8;
             mail.Body = tbName.Text + "<br/>" + tbEmail.Text + "<br/>" + tbSubject.Text + "<br/>" + tbText.Text + "<br/>";
             mail.BodyEncoding = System.Text.Encoding.UTF8;
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("wira.08@live.se", "Bajs123");
+            client.Credentials = new System.Net.NetworkCredential("jensbackelin@hotmail.com", "Hostile666");
             client.Port = 587;
             client.Host = "smtp.live.com";
             client.EnableSsl = true;
