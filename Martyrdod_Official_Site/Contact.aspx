@@ -66,5 +66,8 @@
             </asp:Table>
             <asp:Label ID="lblInfo" runat="server" />
         </div>
+        <div style="width:300px;margin: 0 auto;">
+            Hämta projektet <a href="sln_rar/Martyrdod_Official_Site.rar">här!</a>
+        </div>
     </div>
 </asp:Content>
