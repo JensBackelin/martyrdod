@@ -18,23 +18,23 @@ namespace Martyrdod_Official_Site
         protected void btnSend_Click(object sender, EventArgs e)
         {
             System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
-            mail.To.Add("jensbackelin@hotmail.com");
-            mail.From = new MailAddress("jensbackelin@hotmail.com", "From Martyrdod webform", System.Text.Encoding.UTF8);
-            mail.Subject = "www.martyrdod.com";
+            mail.To.Add("martyrdod@hotmail.com");
+            mail.From = new MailAddress("martyrdod@hotmail.com", "From Martyrdod webform", System.Text.Encoding.UTF8);
+            mail.Subject = "www.martyrdod.com webform";
             mail.SubjectEncoding = System.Text.Encoding.UTF8;
-            mail.Body = tbName.Text + "<br/>" + tbEmail.Text + "<br/>" + tbSubject.Text + "<br/>" + tbText.Text + "<br/>";
+            mail.Body = tbName.Text + "<br/>" + tbEmail.Text + "<br/>" + tbSubject.Text + "<br/><br/>" + tbText.Text + "<br/>";
             mail.BodyEncoding = System.Text.Encoding.UTF8;
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("jensbackelin@hotmail.com", "Hostile666");
+            client.Credentials = new System.Net.NetworkCredential("martyrdod@hotmail.com", "Tokmangel1");
             client.Port = 587;
             client.Host = "smtp.live.com";
             client.EnableSsl = true;
             try
             {
                 client.Send(mail);
-                Page.RegisterStartupScript("UserMsg", "<script>alert('Successfully Send!');if(alert){ window.location='Contact.aspx';}</script>");
+                Page.RegisterStartupScript("UserMsg", "<script>alert('Successfully sent!');if(alert){ window.location='Contact.aspx';}</script>");
             }
             catch (Exception ex)
             {
@@ -45,7 +45,7 @@ namespace Martyrdod_Official_Site
                     errorMessage += ex2.ToString();
                     ex2 = ex2.InnerException;
                 }
-                Page.RegisterStartupScript("UserMsg", "<script>alert('Sending Failed...');if(alert){ window.location='Contact.aspx';}</script>");
+                Page.RegisterStartupScript("UserMsg", "<script>alert('Sending failed...');if(alert){ window.location='Contact.aspx';}</script>");
             }
         }
     }
