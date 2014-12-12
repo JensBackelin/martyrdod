@@ -6,7 +6,7 @@
             $.validationEngineLanguage.allRules = {
                 "required": { 
                     "regex": "none",
-                    "alertText": "* Obligatoriskt",
+                    "alertText": "* Required",
                     "alertTextCheckboxMultiple": "* Please select an option",
                     "alertTextCheckboxe": "* This checkbox is required",
                     "alertTextDateRange": "* Both date range fields are required"
