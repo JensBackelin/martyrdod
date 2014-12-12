@@ -22,7 +22,7 @@ namespace Martyrdod_Official_Site
             mail.From = new MailAddress("martyrdod@hotmail.com", "From Martyrdod webform", System.Text.Encoding.UTF8);
             mail.Subject = "www.martyrdod.com webform";
             mail.SubjectEncoding = System.Text.Encoding.UTF8;
-            mail.Body = tbName.Text + "<br/>" + tbEmail.Text + "<br/>" + tbSubject.Text + "<br/><br/>" + tbText.Text + "<br/>";
+            mail.Body = "Name: " + tbName.Text + "<br/>" + "From: " + tbEmail.Text + "<br/>" + "Subject: " + tbSubject.Text + "<br/><br/>" + "Message: " + tbText.Text + "<br/>";
             mail.BodyEncoding = System.Text.Encoding.UTF8;
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
