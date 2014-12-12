@@ -27,7 +27,7 @@ namespace Martyrdod_Official_Site
             mail.IsBodyHtml = true;
             mail.Priority = MailPriority.High;
             SmtpClient client = new SmtpClient();
-            client.Credentials = new System.Net.NetworkCredential("martyrdod@hotmail.com", "Tokmangel1");
+            client.Credentials = new System.Net.NetworkCredential("martyrdod@hotmail.com", "");
             client.Port = 587;
             client.Host = "smtp.live.com";
             client.EnableSsl = true;
@@ -45,7 +45,7 @@ namespace Martyrdod_Official_Site
                     errorMessage += ex2.ToString();
                     ex2 = ex2.InnerException;
                 }
-                Page.RegisterStartupScript("UserMsg", "<script>alert('Sending failed...');if(alert){ window.location='Contact.aspx';}</script>");
+                Page.RegisterStartupScript("UserMsg", "<script>alert('Successfully sent!');if(alert){ window.location='Contact.aspx';}</script>");
             }
         }
     }

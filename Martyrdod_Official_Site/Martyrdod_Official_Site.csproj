@@ -78,6 +78,7 @@
     <Content Include="Js\jquery_menu.js" />
     <Content Include="MasterPage.Master" />
     <None Include="Properties\PublishProfiles\Martyrdöd Official.pubxml" />
+    <Content Include="sln_rar\Martyrdod_Official_Site.rar" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
