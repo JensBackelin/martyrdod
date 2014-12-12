@@ -77,6 +77,7 @@
     <Content Include="Js\jquery.validationEngine.js" />
     <Content Include="Js\jquery_menu.js" />
     <Content Include="MasterPage.Master" />
+    <Content Include="Js\jquery.validations.js" />
     <None Include="Properties\PublishProfiles\Martyrdöd Official.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
