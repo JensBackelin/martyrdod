@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="liveContent">
+    <div id="liveContent"><%--Tabeller med info om kommande och tidigare spelningar inkl länkar till biljettköp eller evenemangens websidor--%>
         <div id="Shows">
             <table>
                 <th colspan="2" style="text-align: left">

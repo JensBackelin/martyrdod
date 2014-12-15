@@ -14,7 +14,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="contact">
-        <div id="forms">
+        <div id="forms"><%--Kontaktformulär som skicka epost till bandet tryck F7 för code behind--%>
             <%--lägger in hela formen som id--%>
             <asp:Table ID="tblForm" runat="server">
                 <asp:TableHeaderRow>

@@ -18,6 +18,7 @@
     <form id="form1" runat="server">
         <div id="container">
             <div id="topLink">
+                <%--länkar till bandets sociala media mm--%>
                 <div id="topContent">
                     <table>
                         <tr>
@@ -43,57 +44,58 @@
                 </div>
             </div>
             <div id="header">
+                <%-- Bandets logga i toppen funkar även som hemknapp--%>
                 <a href="index.aspx">
                     <img src="img/MartyrdodLogo.png" /></a>
-
-            </div>
-            <div class="btnMenu">
+                </div>
+            <div class="btnMenu"> <%--Denna div funkar som knapp för att toggla menyn vid visning på mobil--%>
                 <img src="img/menu_icon_mobileversion.png" />
             </div>
-            <div id="nav">
-                <ul id="menueList">
-                    <li><a href="index.aspx">HOME</a></li>
-                    <li><a href="Live.aspx">LIVE</a></li>
-                    <li><a href="Band_Info.aspx">BAND INFO</a></li>
-                    <li><a href="Store.aspx">MERCH</a></li>
-                    <li><a href="Contact.aspx">CONTACT</a></li>
-                </ul>
-                <hr />
-            </div>
+                <div id="nav">
+                    <ul id="menueList">
+                        <li><a href="index.aspx">HOME</a></li>
+                        <li><a href="Live.aspx">LIVE</a></li>
+                        <li><a href="Band_Info.aspx">BAND INFO</a></li>
+                        <li><a href="Store.aspx">MERCH</a></li>
+                        <li><a href="Contact.aspx">CONTACT</a></li>
+                    </ul>
+                    <hr />
+                </div>
 
-            <div id="wrapper">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
+                <div id="wrapper"> <%--Denna div omsluter all sidinfo--%>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
 
-            <div id="footer">
-                <hr />
-                <div id="footContent">
-                    <table>
-                        <tr>
-                            <td><%--fb--%>
-                                <a href="https://www.facebook.com/martyrdod" target="_blank">
-                                    <img src="img/fb-Logo.png" /></a>
-                            </td>
+                <div id="footer"> <%-- vår footer motsvarar toplinkdiven med länkar till soc.media--%>
+                    <hr />
+                    <div id="footContent">
+                        <table>
+                            <tr>
+                                <td><%--fb--%>
+                <a href="https://www.facebook.com/martyrdod" target="_blank">
+                    <img src="img/fb-Logo.png" /></a>
+                </td>
                             <td><%--youtube--%>
                                 <a href="https://www.youtube.com/channel/UCazaNpM5322fPF46tc9fguA" target="_blank">
                                     <img src="img/youtubelogo.png" /></a>
                             </td>
-                            <td><%--bands in town--%>
-                                <a href="http://www.bandsintown.com/Martyrd%C3%B6d?came_from=203" target="_blank">
-                                    <img src="img/bands_in_town.png" /></a>
-                            </td>
-                            <td><%--spotify--%>
-                                <a href="http://open.spotify.com/artist/4PD9yGB6QsgYA931FJcKD9" target="_blank">
-                                    <img src="img/Spotify.png" /></a>
-                            </td>
-                        </tr>
+                <td><%--bands in town--%>
+                    <a href="http://www.bandsintown.com/Martyrd%C3%B6d?came_from=203" target="_blank">
+                        <img src="img/bands_in_town.png" /></a>
+                </td>
+                <td><%--spotify--%>
+                    <a href="http://open.spotify.com/artist/4PD9yGB6QsgYA931FJcKD9" target="_blank">
+                        <img src="img/Spotify.png" /></a>
+                </td>
+                </tr>
                     </table>
 
-                </div>
             </div>
-            <div id="fb-root"></div>
-            <script>(function (d, s, id) {
+        </div>
+        <div id="fb-root"></div>
+            <%--Scriptet nedan är plug-in api från facebook. själva <iframe>-inlägget ligger i sidan index--%>
+        <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;

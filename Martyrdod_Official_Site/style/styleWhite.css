@@ -217,6 +217,7 @@ a {
         text-align: center;
     }
 
+/*Nedan avsnitt är media query med villkor för browserfönster smalare än 900px*/
 @media screen and (max-width: 900px) {
     #header {
         width: 100%;
@@ -236,7 +237,7 @@ a {
         margin: 0 auto;
     }
 }
-
+/*Nedan avsnitt är media query med villkor för browserfönster smalare än 600px*/
 @media screen and (max-width:600px) {
     #topLink img {
         width: 90%;
@@ -338,6 +339,3 @@ a {
         width: 90%;
     }
 }
-/*@media screen and (max-device-width: 640px) {
-    
-}*/
