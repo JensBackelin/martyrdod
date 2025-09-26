@@ -3,21 +3,17 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-
-
     <div id="bandPhotos">
         <img src="img/MARTYRDOD_2018.jpg"/>
-        <div class="photCredit">photo: Pjär Karlman</div>
         <table id="tblBandPhotos">
             <tr>
-                <td>Tim Rosenqvist<br>
+                <td>Tim Rosenqvist<br/>
                     Guitar</td>
-                <td>Jens Bäckelin<br>
+                <td>Jens Bäckelin<br/>
                     Drums</td>
-                <td>Daniel Ekeroth<br>
+                <td>Daniel Ekeroth<br/>
                     Bass</td>
-                <td>Mikael Kjellman<br>
+                <td>Mikael Kjellman<br/>
                     Guitar &amp; vocals</td>
             </tr>
         </table>

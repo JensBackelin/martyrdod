@@ -17,7 +17,6 @@
                         <td>2025 - 2026</td>
                         <td>TBA</td>
                         <td></td>
-
                     </tr>
                 </tbody>
             </table>
@@ -296,7 +295,7 @@
                 </table>
             </div>
         </div>
-        <aside id="liveFlyers">            
+        <aside id="liveFlyers">
             <a href="https://www.hellfest.fr/" target="_blank">
                 <img src="img/hell_full-lineup-2022.jpg"></a>
             <a href="https://www.facebook.com/events/167820471232287/" target="_blank">

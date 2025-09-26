@@ -3,12 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="stores"><%--Länkar till webshoppar som säljer bandets grejer--%>
+    <div id="stores">
+        <%--Länkar till webshoppar som säljer bandets grejer--%>
         <table id="tblStores">
             <tr>
                 <td>
                     <a href="http://www.tnor.se/martyrdod" target="_blank">
-                        <img src="img/tnor.png"/></a></td>
+                        <img src="img/tnor.png" /></a></td>
             </tr>
         </table>
     </div>
