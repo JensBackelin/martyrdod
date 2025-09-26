@@ -2,6 +2,7 @@
     font-family: Century Gothic, Arial Narrow, Verdana, Helvetica;
     color: #505050;
 }
+
 #container {
     height: 100%;
 }
@@ -88,9 +89,9 @@
     padding: 50px;
 }
 
-#homeLiveContent, #liveContent table td {
-    line-height: 30px;
-}
+    #homeLiveContent table td {
+        line-height: 30px;
+    }
 
 #fbLike iframe {
     width: 400px;
@@ -198,6 +199,10 @@ a {
     margin: 0 auto 0;
 }
 
+    #contact img {
+        max-width: 100%;
+    }
+
 #forms {
     position: absolute;
     margin-top: 35px;
@@ -263,7 +268,6 @@ a {
         background-color: white;
         z-index: 1;
         display: none;
-
     }
 
         #nav hr {

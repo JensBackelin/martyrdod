@@ -13,12 +13,15 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Martyrdod_Official_Site</RootNamespace>
     <AssemblyName>Martyrdod_Official_Site</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,45 +42,54 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\bands_in_town.png" />
     <Content Include="img\band_photo.jpg" />
-    <Content Include="img\Day Poster Fri May 29th.jpg" />
+    <Content Include="img\Devilstone_19.jpg" />
+    <Content Include="img\dk_2022.jpg" />
     <Content Include="img\dtrp.png" />
     <Content Include="img\EURising.png" />
     <Content Include="img\fb-Logo.png" />
+    <Content Include="img\hell_full-lineup-2022.jpg" />
     <Content Include="img\is.png" />
+    <Content Include="img\logo-doomstar.png" />
     <Content Include="img\MartyrdodLogo.png" />
+    <Content Include="img\MARTYRDOD_2018.jpg" />
     <Content Include="img\MDF.jpg" />
     <Content Include="img\menu_icon_mobileversion.png" />
-    <Content Include="img\poster-2015--en-600.jpg" />
+    <Content Include="img\Neuronoise.jpg" />
     <Content Include="img\punkdistro.png" />
+    <Content Include="img\SDF_19.jpg" />
     <Content Include="img\sl_logo.png" />
     <Content Include="img\Spotify.png" />
+    <Content Include="img\SW_TOUR_19.jpg" />
+    <Content Include="img\tnor.png" />
+    <Content Include="img\UK_deathfest.jpg" />
+    <Content Include="img\vikings_skitis_md.png" />
     <Content Include="img\warlord.png" />
     <Content Include="img\youtubelogo.png" />
     <Content Include="Js\jquery.validationEngine-en.js" />
     <Content Include="Js\jquery.validationEngine.js" />
-    <Content Include="Js\jquery_menu.js" />
     <Content Include="MasterPage.Master" />
     <Content Include="Js\jquery.validations.js" />
+    <None Include="Properties\PublishProfiles\martyrdod-site - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\martyrdod-site - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\Martyrdöd Official.pubxml" />
     <Content Include="sln_rar\Martyrdod_Official_Site.rar" />
     <None Include="Web.Debug.config">
