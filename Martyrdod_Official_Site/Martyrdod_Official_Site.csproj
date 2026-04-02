@@ -89,9 +89,7 @@
     <Content Include="Js\jquery_menu.js" />
     <Content Include="MasterPage.Master" />
     <Content Include="Js\jquery.validations.js" />
-    <None Include="Properties\PublishProfiles\martyrdod-site - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\martyrdod-site - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\Martyrdöd Official.pubxml" />
+    <None Include="Properties\PublishProfiles\martyrdod-site - Web Deploy1.pubxml" />
     <Content Include="sln_rar\Martyrdod_Official_Site.rar" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

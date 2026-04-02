@@ -14,9 +14,39 @@
                         </th>
                     </tr>
                     <tr>
-                        <td>2025 - 2026</td>
-                        <td>TBA</td>
-                        <td></td>
+                        <td>May 29 2026</td>
+                        <td>Slaktkyrkan w. Monolord - SE</td>
+                        <td><a href="https://slakthusen.se/monolord-rotten-sound-slaktkyrkan/" target="_blank">Info</a></td>
+                    </tr>
+                    <tr>
+                        <td>May 30 2026</td>
+                        <td>Monument w. Monolord - SE</td>
+                        <td><a href="https://www.monument031.com/event/monolord-martyrdod-barrens-30-5/" target="_blank">Info</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jun 5 2026</td>
+                        <td>Pitfest - NL</td>
+                        <td><a href="https://www.pitfest.nl/tickets" target="_blank">Info</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jun 6 2026</td>
+                        <td>Mystic Fest - PL</td>
+                        <td><a href="https://tickets.mysticfestival.pl/en/" target="_blank">Info</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jul 4 2026</td>
+                        <td>Ieperfest - BE</td>
+                        <td><a href="https://shop.ticket.monster/event/ieperfest-2026-4ykvwm" target="_blank">Info</a></td>
+                    </tr>
+                    <tr>
+                        <td>Aug 2 2026</td>
+                        <td>Malmö Massacre - SE</td>
+                        <td><a href="https://www.nortic.se/ticket/event/78337/" target="_blank">Info</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sep 12 2026</td>
+                        <td>Nuclear Intervention 5 - CZ</td>
+                        <td><a href="https://www.nuclearintervention.cz/festival-area/" target="_blank">Info</a></td>
                     </tr>
                 </tbody>
             </table>

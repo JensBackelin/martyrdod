@@ -15,10 +15,14 @@
                     <h2>MARTYRDÖD LIVE</h2>
                 </th>
                 <tr>
-                    <td>2025 - 2026</td>
-                    <td>TBA</td>
-                    <td></td>
-
+                    <td>May 29 2026</td>
+                    <td>Slaktkyrkan w. Monolord - SE</td>
+                    <td><a href="https://slakthusen.se/monolord-rotten-sound-slaktkyrkan/" target="_blank">Info</a></td>
+                </tr>
+                <tr>
+                    <td>May 30 2026</td>
+                    <td>Monument w. Monolord - SE</td>
+                    <td><a href="https://www.monument031.com/event/monolord-martyrdod-barrens-30-5/" target="_blank">Info</a></td>
                 </tr>
             </table>
             <div class="showMore"><a href="Live.aspx">show more</a></div>
