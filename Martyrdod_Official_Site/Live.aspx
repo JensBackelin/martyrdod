@@ -14,26 +14,6 @@
                         </th>
                     </tr>
                     <tr>
-                        <td>May 29 2026</td>
-                        <td>Slaktkyrkan w. Monolord - SE</td>
-                        <td><a href="https://slakthusen.se/monolord-rotten-sound-slaktkyrkan/" target="_blank">Info</a></td>
-                    </tr>
-                    <tr>
-                        <td>May 30 2026</td>
-                        <td>Monument w. Monolord - SE</td>
-                        <td><a href="https://www.monument031.com/event/monolord-martyrdod-barrens-30-5/" target="_blank">Info</a></td>
-                    </tr>
-                    <tr>
-                        <td>Jun 5 2026</td>
-                        <td>Pitfest - NL</td>
-                        <td><a href="https://www.pitfest.nl/tickets" target="_blank">Info</a></td>
-                    </tr>
-                    <tr>
-                        <td>Jun 6 2026</td>
-                        <td>Mystic Fest - PL</td>
-                        <td><a href="https://tickets.mysticfestival.pl/en/" target="_blank">Info</a></td>
-                    </tr>
-                    <tr>
                         <td>Jul 4 2026</td>
                         <td>Ieperfest - BE</td>
                         <td><a href="https://shop.ticket.monster/event/ieperfest-2026-4ykvwm" target="_blank">Info</a></td>
@@ -57,6 +37,26 @@
                             <th colspan="2" style="text-align: left">
                                 <h3>PREVIOUS SHOWS</h3>
                             </th>
+                        </tr>
+                        <tr>
+                            <td>Jun 6 2026</td>
+                            <td>Mystic Fest - PL</td>
+                            <td><a href="https://tickets.mysticfestival.pl/en/" target="_blank">Info</a></td>
+                        </tr>
+                        <tr>
+                            <td>Jun 5 2026</td>
+                            <td>Pitfest - NL</td>
+                            <td><a href="https://www.pitfest.nl/tickets" target="_blank">Info</a></td>
+                        </tr>
+                        <tr>
+                            <td>May 30 2026</td>
+                            <td>Monument w. Monolord - SE</td>
+                            <td><a href="https://www.monument031.com/event/monolord-martyrdod-barrens-30-5/" target="_blank">Info</a></td>
+                        </tr>
+                        <tr>
+                            <td>May 29 2026</td>
+                            <td>Slaktkyrkan w. Monolord - SE</td>
+                            <td><a href="https://slakthusen.se/monolord-rotten-sound-slaktkyrkan/" target="_blank">Info</a></td>
                         </tr>
                         <tr>
                             <td>May 22 2025</td>
@@ -326,19 +326,17 @@
             </div>
         </div>
         <aside id="liveFlyers">
+            <img src="img/malmo_mass_26.jpg">
+            <img src="img/ieper_26.png">
+            <img src="img/Mystic-Festival-2026.jpg">
+            <img src="img/pitfest_2026.png">
+            <img src="img/monolord_26.png">
             <a href="https://www.hellfest.fr/" target="_blank">
                 <img src="img/hell_full-lineup-2022.jpg"></a>
             <a href="https://www.facebook.com/events/167820471232287/" target="_blank">
-                <img src="img/UK_deathfest.jpg"></a>k           
+                <img src="img/UK_deathfest.jpg"></a>
             <a href="https://www.facebook.com/events/426457561550314/" target="_blank">
                 <img src="img/vikings_skitis_md.png"></a>
-            <a href="https://www.facebook.com/events/2250844838529893/" target="_blank">
-                <img src="img/SDF_19.jpg"></a>
-            <a href="https://www.facebook.com/events/1931792910223870/" target="_blank">
-                <img src="img/Devilstone_19.jpg"></a>
-            <img src="img/SW_TOUR_19.jpg">
-            <a href="https://www.facebook.com/events/342058133038086/" target="_blank">
-                <img src="img/Neuronoise.jpg"></a>
         </aside>
     </div>
 
